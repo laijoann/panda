@@ -1,10 +1,17 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
+import Nav from './Nav.jsx'
 
 class App extends Component {
+  state = {
+    currUser: 'Joann'
+  }
+
   render() {
     return (
-      <h1>Hello React :)</h1>
-    );
+      <div>
+        <Nav currUser={this.state.currUser}/>
+      </div>
+    )
   }
 }
-export default App;
+export default App
