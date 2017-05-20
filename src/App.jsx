@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Nav from './Nav.jsx'
+import Cal from './Cal.jsx'
 
 class App extends Component {
   state = {
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <div>
         <Nav currUser={this.state.currUser}/>
+        <Cal />
       </div>
     )
   }
