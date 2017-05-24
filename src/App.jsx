@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav currUser={this.state.currUser}/>
-        <Cal />
+        <Nav currUser={this.state.currUser} />
+        <Cal currMonth={'June 2017'} />
       </div>
     )
   }
