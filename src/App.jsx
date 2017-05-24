@@ -11,9 +11,10 @@ class App extends Component {
     return (
       <div>
         <Nav currUser={this.state.currUser} />
-        <Cal currMonth={'June 2017'} />
+        <Cal />
       </div>
     )
   }
 }
+
 export default App
