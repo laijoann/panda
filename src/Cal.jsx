@@ -20,6 +20,10 @@ const month = d.getMonth() //returns current month
 const year = d.getFullYear() //returns current year
 const dayOfWeek = d.getDay() //returns day of week in 0-6
 
+const daysGenerator = () => {
+  return
+}
+
 class Calendar extends Component {
   render() {
     return (
@@ -39,7 +43,7 @@ class Calendar extends Component {
             </tbody>
         </table>
       </div>
-    )
+      )
   }
 }
 

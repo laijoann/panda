@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import Nav from './Nav.jsx'
 import Cal from './Cal.jsx'
+import List from './List.jsx'
+import Heatmap from './Heatmap.jsx'
 
 class App extends Component {
   state = {
@@ -12,6 +14,8 @@ class App extends Component {
       <div>
         <Nav currUser={this.state.currUser} />
         <Cal />
+        <Heatmap />
+        <List />
       </div>
     )
   }

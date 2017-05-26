@@ -30,3 +30,19 @@
   top: 50px;
   padding: 10px;
 }
+.heatmap {
+  position: fixed;
+  bottom: 0;
+  width: 140px;
+  padding: 10px;
+}
+
+.react-calendar-heatmap .color-scale-1 { fill: #acd5f2; }
+.react-calendar-heatmap .color-scale-2 { fill: #7fa8d1; }
+.react-calendar-heatmap .color-scale-3 { fill: #49729b; }
+.react-calendar-heatmap .color-scale-4 { fill: #254e77; }
+.react-calendar-heatmap .color-empty { fill: #eeeeee; }
+.react-calendar-heatmap text {
+  font-size: 10px;
+  fill: #aaa;
+}
